@@ -72,3 +72,13 @@ zope.event==4.5.0
 zope.interface==5.2.0
 tk-tools==0.13.0
 tk==0.1.0
+python3-tk
+libpq-dev
+build-essential
+libncursesw5-dev
+libreadline5-dev
+libssl-dev
+libgdbm-dev
+libc6-dev
+libsqlite3-dev tk-dev
+libbz2-dev
