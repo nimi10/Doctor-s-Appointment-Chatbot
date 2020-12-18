@@ -46,4 +46,4 @@ for url in urls:
         locality.append(place.getText().split(',')[0])
     doctor_data=pd.DataFrame()
     doctor_data[:500]
-    doctor_data[:500].to_excel('doctor_dataset.xlsx',sheet_name='Psydoc',index=False)
+    doctor_data[:500].to_excel('doctor_dataset.xlsx',sheet_name='doctor_dataset',index=False)
