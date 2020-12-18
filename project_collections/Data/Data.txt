@@ -16,7 +16,7 @@ from IPython.display import Image
 import requests #to request html page code
 import bs4 #to format html code
 urls=[]
-for i in range(1,60):
+for i in range(1,50):
     urls.append(' https://www.practo.com/delhi/doctors?page={}'.format(i))
     
 doctornames=[]
@@ -45,5 +45,5 @@ for url in urls:
     for place in alllocality:
         locality.append(place.getText().split(',')[0])
     doctor_data=pd.DataFrame()
-    doctor_data[:500]
-    doctor_data[:500].to_excel('doctor_dataset.xlsx',sheet_name='doctor_dataset',index=False)
+    doctor_data[:50]
+    doctor_data[:50].to_excel('doctor_dataset.xlsx',sheet_name='doctor_dataset',index=False)
