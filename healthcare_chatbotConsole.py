@@ -1,5 +1,3 @@
-######## A pragmatic Approach for Diagnosis ############
-
 # Importing the libraries
 import numpy as np
 import matplotlib
