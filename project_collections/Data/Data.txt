@@ -26,12 +26,12 @@ for url in urls:
     practo=requests.get(url)
     soup=bs4.BeautifulSoup(practo.text,'lxml')
     
-    #make a list of all doctor's name
+    
     alldoctornames=soup.select('.doctor-name')
     for doctor in alldoctornames:
         doctornames.append(doctor.getText())
         
-    #make a list with clinic/hospitals names corrsponding to doctors
+   
     allclinicdump=soup.select('.u-c-pointer.u-t-hover-underline')
     clinicnamestemp=[]
     for data in allclinicdump:
@@ -40,7 +40,7 @@ for url in urls:
         if 'more' not in clinic:
             clinicnames.append(clinic)
             
-    #make a list of each doctor's precise location
+    
     alllocality=soup.select('.u-bold.u-d-inlineblock.u-valign--middle')
     for place in alllocality:
         locality.append(place.getText().split(',')[0])
