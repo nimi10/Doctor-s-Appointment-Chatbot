@@ -80,5 +80,5 @@ libreadline5-dev
 libssl-dev
 libgdbm-dev
 libc6-dev
-libsqlite3-dev tk-dev
+
 libbz2-dev
