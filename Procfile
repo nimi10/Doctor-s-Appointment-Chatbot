@@ -1,2 +1,2 @@
-worker: python QuestionDiagonosisTkinter.py
+web: python QuestionDiagonosisTkinter.py
 
