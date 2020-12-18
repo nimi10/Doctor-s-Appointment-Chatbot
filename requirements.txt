@@ -13,7 +13,7 @@ cloudpickle==1.6.0
 constantly==15.1.0
 cycler==0.10.0
 cymem==2.0.5
-en-core-web-sm==2.3.1
+en-core-web-sm==2.3.0
 Flask==1.1.2
 future==0.18.2
 gevent==20.9.0
